@@ -1,0 +1,39 @@
+# --- Compilation VEGAS : on ne versionne PAS les binaires ---
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.obj
+bin/
+obj/
+
+# --- Rapports et sorties de script ---
+rapports/
+*.log
+*.tmp
+
+# --- Projets VEGAS (volumineux, propres a chaque monteur) ---
+*.veg
+*.veg.bak
+*.vf
+
+# --- Systeme / editeurs ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# --- Python / outils annexes (au cas ou) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# --- Secrets : JAMAIS dans ce depot ---
+.env
+.env.*
+*.credentials
+identifiants.yaml
+secrets.*
